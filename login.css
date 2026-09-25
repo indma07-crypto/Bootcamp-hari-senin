@@ -1,0 +1,163 @@
+:root{
+    --Primary:#3ECF4C;
+    --secondary:#f3a908;
+    --Tertiary:#F64920;
+    --Text-Primary:#222325;
+    --Text-Secondary:#333333AD;
+    --Text-Tertiary:#3A354161;
+}
+
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8e9de86;
+}
+
+
+header{
+    background: #ffffff;
+    width: 100%;
+    height: 72px;
+    max-width: 1440px;
+}
+
+.logo{
+    padding: 16px 0px 16px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--Tertiary);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 120px;
+}
+
+.card{
+    background: #ffffff;
+    width: 410px;
+    height: 420px;
+    justify-items: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 4px;
+    padding: 36px;
+    gap: 36px;
+}
+
+h5{
+    text-align: center;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 50%;
+    letter-spacing: 0%;
+    color: #222325;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #404040d9;
+    font-weight:400;
+    font-style: normal;
+    size: 12px;
+    line-height: 50%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label{
+    color: #222325;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+label span{
+    color: #F64920;
+}
+
+input{
+    border:1px solid rgba(223, 223, 223, 0.433);
+    width: 400px;
+    height: 32px;
+}
+
+
+
+a{
+    color: #222325;
+    font-size: 14px;
+    font-weight: 550;
+    margin-left: 297px;
+}
+
+.btn{
+    display: block;
+    width: 410px;
+    height: 32px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.forgot a{
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    margin: 10px 0px;
+    background-color: var(--Primary);
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn-secondary{
+    margin:10px 0px;
+    background-color: #c8f4ccbd;
+    color: var(--Primary);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.divider{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+
+
+.btn-google{
+    width: 410px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border:1px solid rgba(223, 223, 223, 0.433);
+    border-radius: 5px;
+}
+
+
+img{
+    width: 11px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.masuk-google{ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
