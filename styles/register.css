@@ -1,0 +1,366 @@
+@import url('token.css');
+@import url('main.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    max-width: 1440px;
+    max-height: 1101px;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 80px;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-right: 120px;
+    padding-bottom: 12px;
+    padding-left: 120px;
+    opacity: 1;
+    border-bottom-width: 1px;
+}
+
+main{
+    display: flex;
+    width: 1440px;
+    height: 1021px;
+    padding-top: 64px;
+    padding-right: 120px;
+    padding-bottom: 64px;
+    padding-left: 120px;
+    gap: 36px;
+    opacity: 1;
+    background-color: rgba(252, 248, 202, 0.3);
+    font-family:'lato';
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    padding: 36px;
+    width: 590px;
+    height: 893px;
+    border-radius: 4px;
+    gap: 36px;
+    opacity: 1;
+    border-width: 1px;
+    background-color: var(--primary-backgorund);
+}
+
+.judullogin{
+    width: 525px;
+    height: 67px;
+    gap: 10px;
+    opacity: 1;
+    text-align: center;
+}
+
+p{
+    color: var(--grayscale-600);
+}
+.heading-3{
+    color: var(--grayscale-900);
+    padding-bottom: 10px;
+}
+
+.formlogin{
+    width: 518px;
+    height: 718px;
+    gap: 24px;
+    opacity: 1;
+    justify-content: center;
+    margin: 36px 0px;
+}
+
+.input {
+    width: 518px;
+    height: 482px;
+    gap: 16px;  
+    opacity: 1;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+span{
+    width: 8px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(211, 46, 31, 1);
+}
+
+input{
+    width: 518px;
+    height: 48px;
+    border: 1px solid var(--grayscale-100);
+    border-radius: 6px;
+    opacity: 1;
+    margin-bottom: 16px;
+}
+
+.divider{
+    font-weight: 500;
+    display:grid;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: end;
+}
+
+.btn{
+    width: 518px;
+    height: 100px;
+    gap: 16px;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+
+.btn-primary-contained {
+    width: 518px;
+    height: 42px;
+    border-radius: 10px;
+    opacity: 1;
+    color: var(--text-light-primary);
+    margin-bottom: 16px;
+}
+
+.btn-primary-shadow {
+    width: 518px;
+    height: 42px;
+    border-radius: 10px;
+    opacity: 1;
+    color: var(--primary);
+}
+
+.atau{
+    color: var(--text-dark-primary);
+    width: 50px;
+    height: 22px;
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 10px;
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.btn-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 518px;
+    height: 42px;
+    border-radius: 10px;
+    opacity: 1;
+    border-width: 1px;
+    font-weight: 700;
+    background-color: var(--text-light-primary);
+    border:1px solid var(--grayscale-100);
+    margin: auto;
+}
+
+.btn-google img{
+    margin: 0;
+    width: 15px;
+    height: 20px;
+    opacity: 1;
+}
+
+.btn-google .text-google{
+    margin: 0;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: var(--grayscale-800);
+    margin-left: 8px;
+}
+
+@media  screen and (min-width: 917px) {
+    .gender{
+        display: none;
+    }
+    #gender{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px ) {
+    nav{
+        width: 360px;
+        height: 74px;
+        justify-content: space-between;
+        opacity: 1;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        padding-top: 16px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+    }
+
+    nav img{
+        width: 152px;
+        height: 42px;
+        opacity: 1;
+
+    }
+
+    main{
+        width: 360px;
+        height: 922px;
+        gap: 24px;
+        opacity: 1;
+        padding-top: 28px;
+        padding-right: 20px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+    }
+
+    .login{
+        width: 320px;
+        height: 866px;
+        border-radius: 4px;
+        border-width: 1px;
+        gap: 20px;
+        opacity: 1;
+        padding: 28px 20px;
+    }
+
+    .judullogin{
+        width: 280px;
+        height: 56px;
+        gap: 10px;
+        opacity: 1;
+    }
+
+    .formlogin{
+        width: 280px;
+        height: 866px;
+        gap: 12px;
+        opacity: 1;
+    }
+
+    .heading-3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 110.00000000000001%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+
+    .input{
+        width: 280px;
+        height: 548px;
+        gap: 12px;
+        opacity: 1;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .body-medium-regular{
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+    }
+
+    input{
+        width: 280px;
+        height: 48px;
+        border-radius: 6px;
+        border-width: 1px;
+        opacity: 1;
+        margin-bottom: 12px;
+    }
+
+    .gender{
+        display: flex;
+        width: 280px;
+        height: 48px;
+        border-radius: 6px;
+        border: 1px solid var(--grayscale-100);
+        opacity: 1;
+        font-size: 14px;
+        font-family: 'lato';
+        margin-bottom: 12px;
+    }
+
+    .divider{
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        text-align: end;
+    }
+
+    .btn{
+        width: 280px;
+        height: 84px;
+        gap: 16px;
+        opacity: 1;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary-contained{
+        width: 280px;
+        height: 34px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    .btn-primary-shadow{
+        width: 280px;
+        height: 34px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    .btn-google{
+        width: 280px;
+        height: 34px;
+        border-radius: 10px;
+        border-width: 1px;
+        opacity: 1;
+        margin-bottom: 24px;
+    }
+
+    .btn-google img{
+        width: 15px;
+        height: 20px;
+        opacity: 1;
+    }
+
+    .btn-google .text-google{
+        width: 170px;
+        height: 20px;
+        opacity: 1;
+        font-size: 14px;
+    }
+}
